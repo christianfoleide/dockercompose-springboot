@@ -1,0 +1,10 @@
+version: '3'
+services:
+  domain-api:
+    build: domain-api/
+    ports:
+      - "8080:8080"
+  scheduler-api:
+    build: scheduler-api/
+    ports:
+      - "8081:8081"
